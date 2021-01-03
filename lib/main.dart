@@ -12,7 +12,7 @@ class Page1 extends StatelessWidget {
       appBar: AppBar(),
       body: Center(
         child: ElevatedButton(
-          child: Text('Go!'),
+          child: Text('Let it go!'),
           onPressed: () {
             Navigator.of(context).push(_createRoute());
           },
