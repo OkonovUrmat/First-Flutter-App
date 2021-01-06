@@ -13,7 +13,7 @@ class Page1 extends StatelessWidget {
       appBar: AppBar(),
       body: Center(
         child: ElevatedButton(
-          child: Text('There is something inside you'),
+          child: Text('There is something inside you', style: TextStyle(fontSize: 30.0, fontStyle: FontStyle.italic),),
           onPressed: () {
             Navigator.of(context).push(_createRoute());
           },
