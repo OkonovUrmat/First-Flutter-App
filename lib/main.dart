@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 main() {
   runApp(MaterialApp(
+    title: "Animation",
     home: Page1(),
   ));
 }
@@ -12,7 +13,7 @@ class Page1 extends StatelessWidget {
       appBar: AppBar(),
       body: Center(
         child: ElevatedButton(
-          child: Text('Let it go!'),
+          child: Text('There is something inside you'),
           onPressed: () {
             Navigator.of(context).push(_createRoute());
           },
