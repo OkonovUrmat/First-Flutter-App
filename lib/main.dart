@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 main() {
@@ -12,6 +14,7 @@ class Page1 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Center(
+        heightFactor: 10,
         child: ElevatedButton(
           child: Text('There is something inside you', style: TextStyle(fontSize: 30.0, fontStyle: FontStyle.italic, fontWeight: FontWeight.bold),),
           onPressed: () {
