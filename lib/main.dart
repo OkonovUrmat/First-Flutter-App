@@ -45,3 +45,12 @@ class Page2 extends StatelessWidget {
     );
   }
 }
+
+
+class Page3 extends AlertDialog {
+  Widget buid(BuildContext context) {
+    return AlertDialog(
+      title: Text("Alert"), 
+    );
+  }
+}
